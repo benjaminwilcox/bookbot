@@ -7,7 +7,7 @@ def get_book_text(filepath):
             file_contents = f.read()
             return file_contents
     except FileNotFoundError:
-        print("book not found at specified location")
+        print("Book not found at specified location")
         sys.exit(1)
 
 def main():
